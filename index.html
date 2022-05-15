@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Ping Pong Practice</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">
+        <!-- 
+            const myH1 =document.getElementById("#h1")
+            myH1.onclick = alert("Welcome")
+            myH1.style.borderBottom="2px black dashed"
+            myH1.className = "title"
+            myH1.id = "h1"
+         -->
+        This is Racing Game
+      </h1>
+      <div class="game-box" id="game-box"></div>
+    </div>
+
+    <!-- <template id="ball">
+      <div class="ball"></div>
+    </template> -->
+
+    <template id="top-paddle">
+      <div>
+        <div class="paddle paddle-top"></div>
+      </div>
+    </template>
+
+    <template id="bottom-paddle">
+      <div>
+        <div class="paddle paddle-bottom"></div>
+      </div>
+    </template>
+
+    <template id="paddle">
+      <div>
+        <div class="paddle"></div>
+      </div>
+    </template>
+    <!-- <script src="./js/main.js" type="module"></script> -->
+    <script src="./js/app.js" type="module"></script>
+  </body>
+</html>
